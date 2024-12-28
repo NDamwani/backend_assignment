@@ -27,7 +27,9 @@
 Ans - If we want to fetch random comments rather than the latest 3, simply modify the get_comments method in PostSerializer:
 
   def get_comments(self, obj):
+  
       random_comments = obj.comments.order_by('?')[:3]
+      
       return CommentSerializer(random_comments, many=True).data
 
 
