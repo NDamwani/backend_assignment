@@ -1,0 +1,61 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Django stuff
+*.log
+*.pot
+*.pyc
+*.pyo
+db.sqlite3  # Ignore the SQLite database
+migrations/__pycache__/  # Ignore compiled migration files
+
+# Virtual environments
+myenv/
+env/
+venv/
+.virtualenv/
+*.pyenv/
+pyvenv.cfg
+
+# Editor/IDE configuration files
+.vscode/
+.idea/
+
+# macOS files
+.DS_Store
+
+# Windows files
+Thumbs.db
+ehthumbs.db
+
+# Testing
+.coverage
+*.coverage.*
+.cache
+.pytest_cache/
+
+# Static and media files (if applicable)
+staticfiles/
+media/
+
+# Requirements files backups (optional)
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Environment variables
+.env  # Add if you use an environment file for secrets
